@@ -1,0 +1,72 @@
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 60px 0;
+    margin: 10px 0;
+}
+
+.footer h3 {
+    font-size: 18px;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 30px;
+}
+.footer a {
+    font-size: 14px;
+    color: #000000;
+}
+.footer li {
+    margin-bottom: 3px;
+}
+.footer .input{
+    width: 40%;
+}
+.footer input {
+    width: 70%;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 12px;
+    height: 40px;
+}
+.footer button {
+    width: 30%;
+    padding: 12px;
+    height: 40px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+}
+.heart i {
+    color: #dc3545;
+    margin-left: 4px;
+    font-size: 20px;
+    font-size: 11px;
+}
+@media only screen and (max-width: 992px) {
+    .footer .input{
+        width: 90%;
+    }
+    ul {
+        width: 80%;
+        margin-bottom: 50px;
+    }
+}
+@media only screen and (max-width: 485px) {
+    .footer .input{
+        width: 90%;
+    }
+    .footer input{
+        font-size: 12px;
+    }
+    .footer button{
+        font-size: 8px;
+        padding: 1px;
+    }
+
+    ul {
+        width: 80%;
+        margin-bottom: 50px;
+    }
+}

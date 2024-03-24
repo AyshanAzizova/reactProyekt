@@ -1,0 +1,88 @@
+header {
+    width: 100%;
+    position: sticky;
+    background: transparent;
+    z-index: 20000;
+    padding: 30px 0;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav a {
+    font-size: 11px;
+    letter-spacing: 0.1rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+nav h6 a {
+    font-size: 12px;
+    letter-spacing: 0.45rem;
+    font-weight: 700;
+}
+h6 a {
+    color: #000000;
+}
+nav span {
+    color: #0fb78d;
+}
+nav ul,
+.navIcons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+nav i {
+    cursor: pointer;
+}
+nav .navbar {
+    background: transparent;
+}
+.sidebar,
+.cartbar {
+    width: 300px;
+    height: 90vh;
+    background: black;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 30px 24px;
+    display: none;
+}
+nav .menu {
+    display: none;
+}
+.sidebar,
+.cartbar i {
+    color: white;
+    float: right;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .container {
+        width: 84%;
+    }
+    nav ul {
+        display: none;
+    }
+    nav .menu {
+        display: block;
+    }
+    .menu:hover .sidebar {
+        display: block;
+    }
+}
+@media only screen and (max-width: 1095px) {
+    nav ul {
+        gap: 10px;
+    }
+    nav ul li a {
+        font-size: 10px;
+    }
+}

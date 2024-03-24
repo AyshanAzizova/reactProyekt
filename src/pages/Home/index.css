@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+.contentstyle {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.contentstyle .content{
+    text-align: center;
+    position: absolute;
+    top: 34%;
+    right: 66%;
+    width: 540px;
+}
+.contentstyle .content h1{
+    font-size: 46px;
+    color: white;
+    font-weight: 600;
+    line-height: 3.3rem;
+    margin-bottom: 50px;
+}
+.contentstyle .content a{
+    border: 1px solid black;
+    color: black;
+    padding:14px 26px;
+    font-size: 12px;
+}
+.contentstyle .content a:hover{
+    background: black;
+    color: white; 
+}
+.carousel1 {
+    background-image: url(../../images/carousel1.jpg.webp);
+}
+.carousel2 {
+    background-image: url(../../images/caouesel2.jpg.webp);
+}
+.contentstyle img {
+    width: 100%;
+    height: 90vh;
+}
+header .sibarcont {
+    background: black;
+    width: 300px;
+    height: 200px;
+    position: fixed;
+    top: 0px;
+    z-index: 2000;
+    right: 0px;
+}
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+.icons {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: space-between;
+}
+.col {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    line-height: 24px;
+    width: 31%;
+}
+.col h3 {
+    font-size: 11px;
+    letter-spacing: 0.2rem;
+    font-weight: 400;
+    color: #333333;
+}
+.col p {
+    font-size: 15px;
+    color: #b3b3b3;
+    letter-spacing: 0.8px;
+}
+.col i {
+    font-size: 24px;
+}
+.boy {
+    width: 100%;
+}
+.boy .container {
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-image: url(../../images/boy.jpg.webp);
+}
+.boy .container .content {
+    width: 50%;
+    padding: 20px;
+    background-color: white;
+}
+.boy .container .content span {
+    font-size: 16px;
+}
+.boy .container .content h2 {
+    font-size: 36px;
+    font-weight: 300;
+    margin-top: 4px;
+}
+.boy .content p {
+    margin: 8px 0;
+    font-size: 17px;
+    line-height: 26px;
+}
+.boy .content button {
+    padding: 16px 28px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    margin: 10px 0;
+    font-size: 11px;
+}
+@media only screen and (max-width: 1200px) {
+    .content{
+    position: absolute;
+        right: 40%;
+    
+    }
+}
+@media only screen and (max-width: 992px) {
+    .icons .col {
+        width: 45%;
+    }
+    .boy .container .content {
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .icons .col {
+        margin: 0 auto;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .boy .container .content {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 400px) {
+    .boy .container .content h2 {
+        font-size: 22px;
+    }
+    .boy .container .content p {
+        font-size: 10px;
+    }
+}
